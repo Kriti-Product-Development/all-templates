@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Modern Icons from Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Rosie | MERN Stack Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <h3 class="nav__logo">Rosie.dev</h3>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#connect" class="nav__link">Links</a></li>
+            <li><a href="#contact" class="nav__button">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Hi, I'm Rosie.
+              <span class="hero__title-highlight"
+                >a full-stack web developer</span
+              >
+            </h1>
+            <p class="hero__description">
+              Hi, I'm Rosie — a full-stack developer specializing in creating
+              robust and scalable web applications using MongoDB, Express,
+              React, and Node.js.
+            </p>
+            <div class="hero__buttons">
+              <a href="#connect" class="button">Let's Talk</a>
+              <a href="#skills" class="button button--ghost">View Skills</a>
+            </div>
+          </div>
+
+          <div class="hero__image">
+            <img src="Girl.webp" alt="Developer illustration" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <h2 class="section__title">Technical Expertise</h2>
+
+          <div class="skills__container">
+            <div class="skills__content">
+              <div class="skills__info">
+                <h3 class="skills__subtitle">Professional Skillset</h3>
+                <p class="skills__description">
+                  Experienced in building scalable applications with modern web
+                  technologies and best practices in software development.
+                </p>
+              </div>
+
+              <div class="skills__list">
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-reactjs-line skills__icon"></i>
+                    <span class="skills__percentage-text">97%</span>
+                  </div>
+                  <h3 class="skills__card-title">React.js</h3>
+                  <p class="skills__card-description">
+                    Frontend development with modern React, Redux, and Next.js
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 97%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-javascript-line skills__icon"></i>
+                    <span class="skills__percentage-text">85%</span>
+                  </div>
+                  <h3 class="skills__card-title">JavaScript</h3>
+                  <p class="skills__card-description">
+                    Modern ES6+, TypeScript, and functional programming
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-database-2-line skills__icon"></i>
+                    <span class="skills__percentage-text">85%</span>
+                  </div>
+                  <h3 class="skills__card-title">MongoDB</h3>
+                  <p class="skills__card-description">
+                    Database design, aggregation, and optimization
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-reactjs-line skills__icon"></i>
+                    <span class="skills__percentage-text">89%</span>
+                  </div>
+                  <h3 class="skills__card-title">React Native</h3>
+                  <p class="skills__card-description">
+                    Mobile development with React Native and Expo
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 89%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-angularjs-fill skills__icon"></i>
+                    <span class="skills__percentage-text">89%</span>
+                  </div>
+                  <h3 class="skills__card-title">Angular</h3>
+                  <p class="skills__card-description">
+                    Angular for building dynamic and responsive web applications
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 89%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-database-2-line skills__icon"></i>
+                    <span class="skills__percentage-text">89%</span>
+                  </div>
+                  <h3 class="skills__card-title">SQL</h3>
+                  <p class="skills__card-description">
+                    SQL for database management and querying
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 89%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="connect">
+      <div class="container">
+        <h2 class="footer__title">Let's Connect</h2>
+
+        <div class="footer__social">
+          <a href="#" class="footer__link">
+            <i class="ri-linkedin-fill"></i>
+          </a>
+          <a href="#" class="footer__link">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a href="#" class="footer__link">
+            <i class="ri-twitter-fill"></i>
+          </a>
+        </div>
+
+        <p class="footer__copy">© 2024 Rosie. All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
