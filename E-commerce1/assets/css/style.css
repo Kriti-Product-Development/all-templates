@@ -416,7 +416,7 @@ h3 > a { color: inherit; }
   gap: 20px;
 }
 
-.service-item-icon { width: 45px; }
+.service-item-icon { width: 35px; }
 
 .service-item-icon img { margin-inline: auto; }
 
