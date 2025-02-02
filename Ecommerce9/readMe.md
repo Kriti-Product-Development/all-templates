@@ -1,5 +1,10 @@
 # Responsive Fashion E-commerce Website Template with HTML, CSS & JavaScript
-
-![Responsive Fashion E-commerce Website Template with HTML, CSS and JavaScript](https://raw.githubusercontent.com/wpcodevo/lc28-fashion-ecommerce-website/starter/fashion%20ecommerce%20website%20html%20css%20scss%20javascript.png 'Responsive Fashion E-commerce Website Template with HTML, CSS and JavaScript')
-
-The Figma file of the Responsive Fashion E-commerce Website Template can be found on my [website](https://www.codevoweb.com)
+# Purpose <br>
+A fashion-focused e-commerce website offering trendy clothing and accessories for various categories.<br>
+# other purposes<br>
+Clothing and Apparel Store: Featuring men's, women's, and kids' clothing collections.<br>
+Lifestyle and Accessories Store: Selling bags, shoes, sunglasses, and watches.<br>
+Beauty and Skincare Store: Offering beauty products with category-based browsing.<br>
+Electronics and Gadgets Store: Highlighting electronic devices and accessories in a clean, fashion-inspired design.<br>
+Artisan and Handcrafted Products: Showcasing unique handmade items with attractive imagery.<br>
+Home and Decor Store: Displaying decor items, furniture, and seasonal collections.<br>
